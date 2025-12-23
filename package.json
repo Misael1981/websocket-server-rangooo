@@ -1,0 +1,15 @@
+{
+  "name": "print-agent-ws-server",
+  "version": "1.0.0",
+  "description": "Servidor WebSocket para agentes de impressão",
+  "main": "websocket-server.js",
+  "scripts": {
+    "start": "node websocket-server.js"
+  },
+  "author": "Misael",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "ws": "^8.18.3"
+  }
+}
